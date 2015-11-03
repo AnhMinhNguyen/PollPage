@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>  
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>PollSite</title>
+  </head>
+  <body>
+<center>
+      <h3>P o l l S i t e</h3><p>
+	  
+	  <form action="textarea.html" method="post"> 
+   <div>  
+      <label for="text">Frage</label><br>
+         <textarea id="text" name="text" cols="35" rows="4"></textarea>
+<br>
+   </div> 
+</form>
+<p>
+
+<form action="textarea.html" method="post"> 
+   <div>  
+      <label for="text">Antwort</label><br>
+         <textarea id="text" name="text" cols="35" rows="4"></textarea><br><br>
+      <input type="submit" value="Abfragen"/>
+   </div> 
+</form> 
+</center>
+      
+  </body>
+</html> 
