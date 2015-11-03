@@ -1,29 +1,34 @@
 <!DOCTYPE html> 
 <html>  
   <head>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>PollSite</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+ 
+  
 <center>
       <h3>P o l l S i t e</h3><p>
 	  
-	  <form action="textarea.html" method="post"> 
+	  <form action="#" method="post"> 
    <div>  
       <label for="text">Frage</label><br>
-         <textarea id="text" name="text" cols="35" rows="4"></textarea>
+         <textarea id="textarea_frage" name="text" cols="40" rows="6"></textarea>
 <br>
    </div> 
 </form>
 <p>
 
-<form action="textarea.html" method="post"> 
+<form action="#" method="post"> 
    <div>  
       <label for="text">Antwort</label><br>
-         <textarea id="text" name="text" cols="35" rows="4"></textarea><br><br>
-      <input type="submit" value="Abfragen"/>
+         <textarea id="textarea_antwort" name="text" cols="40" rows="6"></textarea><br><br>
+      <input type="submit" value="Frage hinzufügen"/>
    </div> 
-</form> 
+</form> <div id="footer">Footertext
+		</div>
 </center>
       
   </body>
