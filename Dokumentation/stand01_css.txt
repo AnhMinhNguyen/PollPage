@@ -1,9 +1,21 @@
-#textarea_frage{
-   resize: none;
+#wrapper {
+	text-align:center;
+	background-color:#;	
 }
 
+
+#header {
+	padding:20px;
+}
+
+
+#textarea_frage {
+   resize:none;
+}
+
+
 #textarea_antwort {
-   resize: none;
+   resize:none;
 }
 
 
@@ -13,4 +25,5 @@
 	position:absolute;
 	bottom:0;
 	left:0;
+	clear:both;
 }
