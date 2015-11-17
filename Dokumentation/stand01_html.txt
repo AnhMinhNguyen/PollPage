@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="#" type="image/png" />
   <link rel="icon" href="#" type="image/png" />
-    <title>PollSite</title>
+    <title>PollPage</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   
@@ -15,15 +15,17 @@
   <div id="header">
   
 <!-- HIER ENTSTEHT EIN BILD ODER LOGO -->
-      <h3>P o l l S i t e</h3><p>
+      <h2>P o l l P a g e</h2><p>
 	  </div>
 
+	  <h4>Frage 1</h4>
+	  <br>
 	  
 <!-- TEXTFELD FÜR DIE FRAGE -->
 	  <form action="#" method="post"> 
    <div>  
       <label for="text">Frage</label><br>
-         <textarea id="textarea_frage" name="text" cols="38" rows="6"></textarea>
+         <textarea id="textarea_frage" name="text" cols="40" rows="10"></textarea>
 <br>
    </div> 
 </form>
@@ -34,7 +36,7 @@
 
 <!-- TEXTFELD FÜR DIE ANTWORT -->
       <label for="text">Antwort</label><br>
-         <textarea id="textarea_antwort" name="text" cols="38" rows="6"></textarea><br><br>
+         <textarea id="textarea_antwort" name="text" cols="40" rows="10"></textarea><br><br>
       <input type="submit" value="Frage hinzufügen"/>
    </div>
    
