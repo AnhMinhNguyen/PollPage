@@ -17,9 +17,6 @@
 <!-- HIER ENTSTEHT EIN BILD ODER LOGO -->
       <h2>P o l l P a g e</h2><p>
 	  </div>
-
-	  <h3>Willkommen auf PollPage</h3>
-	  <br>
 	  
 		<form action="">
 			<h3>Einloggen</h3>
@@ -32,7 +29,7 @@
 			</div>
 			<div>
 			<br>
-			<a href="seite_1.html">
+			<a href="fragen_und_antworten_erstellen.html">
     <input type="Button" id="einloggen" name="url button" value="Einloggen" /></a><p>
 			 <a href="#">Passwort vergessen?</a>
 			 <p>
