@@ -47,3 +47,8 @@
   </body>
   </div>
 </html> 
+
+=== Feedback Alpers, dez 11 ===
+
+Eine Dokumentation soll beinhalten, welche Entscheidungen Sie wann aus welchen Gründen getroffen haben.
+Eine Kopie des Code ist dementsprechend keine Dokumentation.
