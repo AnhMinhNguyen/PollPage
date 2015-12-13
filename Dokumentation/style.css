@@ -1,21 +1,23 @@
 #wrapper {
 	text-align: center;
 	background-color: #fdfbe1;	
+	color: #492200;
 }
 
 
 #header {
 	padding: 20px;
+	background-color: #fdfbe1;
 }
 
 a:link	{
 font-size: 15px;
-color: #0D0DFF;
+color: #936100;
 text-decoration: none;
 }
 
 a:hover {
-color: #FF0000;
+color: #684500;
 }
 
 
@@ -36,4 +38,5 @@ color: #FF0000;
 	bottom: 0;
 	left: 0;
 	clear: both;
+	background-color: #fdfbe1;
 }
