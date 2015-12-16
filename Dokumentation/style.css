@@ -5,7 +5,7 @@ body {
 	font-family: ;
 	background-color: #fdfbe1;	
 	color: #190c00;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.4px;
 }
 
 
@@ -41,6 +41,9 @@ color: #936100;
 
 
 footer {
-    display: block;
+    clear: both;
 	color: #190c00;
+	position: absolute;
+	bottom: 0;
+	width: 99%;
 }
