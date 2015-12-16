@@ -19,19 +19,19 @@
 	
 	
 <!-- Account erstellen START -->
-		<form action="" method="get">
+		<form action="account_erstellen.php" method="post">
 		
 			<h4>Account erstellen</h4>
 			
-				<input type="text" placeholder="Benutzername" required="" id="benutzername_erstellen"/><p>
+				<input type="text" placeholder="Benutzername" required="" id="benutzername_erstellen" name="name"/><p>
 			
-				<input type="password" placeholder="Passwort" required="" id="passwort_erstellen"/><p>
+				<input type="password" placeholder="Passwort" required="" id="passwort_erstellen" name="password"/><p>
 				
-				<input type="password" placeholder="Passwort  wiederholen" required="" id="passwort_erstellen"/><p>
+				<input type="password" placeholder="Passwort wiederholen" required="" id="passwort_erstellen" name="password_retype"/><p>
 				
-			<a href="#">
 			
-			<input type="Button" id="account_erstellen" name="url button" value="Account erstellen"/></a><p>
+			
+			<input type="submit" id="account_erstellen" name="url button" value="Account erstellen"/>
 			
 <!-- Account erstellen ENDE -->
 

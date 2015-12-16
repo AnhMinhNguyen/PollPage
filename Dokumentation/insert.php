@@ -11,9 +11,19 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 //------------------------------------------------------------
+$sql_id="SELECT MAX(id) FROM pollpage";
+$result_id = $conn->query($sql_id);
+$row = $result_id->fetch_assoc();
+if (is_null($row["MAX(id)"])) {
+    $id = 0;
+} else {
+    $id = $row["MAX(id)"];
+}
 
-$sql = 'INSERT INTO pollpage (frage, antwort)
-VALUES ("' . $_POST["frage"]. '", "'. $_POST["antwort"].'")';
+$id++;
+$sql = 'INSERT INTO pollpage (id,frage, antwort)
+VALUES (' . $id. ',"' . $_POST["frage"]. '", "'. $_POST["antwort"].'")';
+
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
