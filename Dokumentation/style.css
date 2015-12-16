@@ -5,13 +5,9 @@ body {
 	font-family: ;
 	background-color: #fdfbe1;	
 	color: #190c00;
+	letter-spacing: 1px;
 }
 
-
-#header {
-	padding: 20px;
-	color: #190c00;
-}
 
 hr { 
 	border: 0;
