@@ -11,7 +11,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-//------------------------------------------------------------
+
+// select max user_id
 $sql_id = "SELECT MAX(user_id) FROM user";
 $result_id = $conn->query($sql_id);
 $row = $result_id->fetch_assoc();
@@ -21,27 +22,28 @@ if (is_null($row["MAX(user_id)"])) {
     $id = $row["MAX(user_id)"];
 }
 
-if (!empty($_POST["name"] && !empty($_POST["password"]))) {
+// check if user existed
+$sql = 'SELECT user_name from user WHERE user_name=' . '"' . $_POST["name"] . '"';
+$result = $conn->query($sql);
 
-    if ($_POST["password"] == $_POST["password_retype"]) {
-        $id++;
-        $sql = 'INSERT INTO user (user_id, user_name, password)
-VALUES (' . $id . ',"' . $_POST["name"] . '", "' . $_POST["password"] . '")';
+if ($result->num_rows > 0) { // user exists
+    echo "Dieser Benutzer ist bereits vorhanden.";
+} else {
+    // create new  user
+    if (!empty($_POST["name"] && !empty($_POST["password"]))) {
 
-
-        if ($conn->query($sql) === TRUE) {
-            echo "New record created successfully";
+        if ($_POST["password"] == $_POST["password_retype"]) {
+            $id++;
+            $sql = 'INSERT INTO user (user_id, user_name, password) VALUES (' . $id . ',"' . $_POST["name"] . '", "' . $_POST["password"] . '")';
+            if ($conn->query($sql) === TRUE) {
+                echo "Sie haben einen Account erfolgreich erstellt.";
+            } else {
+                echo "Error: " . $sql . "<br>" . $conn->error;
+            }
         } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
+            echo 'Die Wiederholung des Passworts ist nicht korrekt.';
         }
-    } else {
-        echo 'Passwort nicht gleich.';
     }
 }
 
-
-
 $conn->close();
-//echo 'Frage: '. ;
-//echo '<br/>Antwort: '. $_POST['antwort'];
-?>
