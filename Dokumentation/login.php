@@ -11,10 +11,6 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-//------------------------------------------------------------
-//------------------------------------------------------------
-
-
 
 $sql = 'SELECT user_name from user WHERE user_name=' . '"' . $_POST["user"] . '"';
 $result = $conn->query($sql);
@@ -27,13 +23,13 @@ if ($result->num_rows > 0) {
     $result_password = $conn->query($sql_password);
     if ($result_password->num_rows > 0) {
         $password = $result_password->fetch_assoc()["password"];
-        echo 'eingeloggt';
+        echo 'Sie haben sich erfolgreich eingeloggt.';
         header("Location: fragen_und_antworten_erstellen.html");
     } else {
-        echo 'Falscher Passwort';
+        echo 'Falscher Passwort.';
     }
 } else {
-    echo "User nicht vorhanden";
+    echo 'Dieser Benutzer ist nicht vorhanden.';
 }
 
 $conn->close();
