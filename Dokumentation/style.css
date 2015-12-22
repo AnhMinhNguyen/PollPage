@@ -4,7 +4,7 @@ body {
 	text-align: center;
 	font-family: ;
 	background-color: #fdfbe1;	
-	color: #190c00;
+	color: #411f00;
 	letter-spacing: 0.4px;
 }
 
@@ -18,15 +18,19 @@ hr {
 }
 
 a:link	{
-font-size: 15px;
-color: #190c00;
-text-decoration: none;
+	font-size: 15px;
+	color: #190c00;
+	text-decoration: none;
 }
 
 a:hover {
-color: #936100;
+	color: #936100;
 }
 
+a:visited {
+	color: #936100;
+	
+}
 
 #textarea_frage {
    resize: none;
