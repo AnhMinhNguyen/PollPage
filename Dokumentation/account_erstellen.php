@@ -22,7 +22,7 @@ if (is_null($row["MAX(user_id)"])) {
     $id = $row["MAX(user_id)"];
 }
 
-// check if user existed
+// check if user already exists
 $sql = 'SELECT user_name from user WHERE user_name=' . '"' . $_POST["name"] . '"';
 $result = $conn->query($sql);
 
