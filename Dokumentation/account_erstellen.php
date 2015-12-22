@@ -26,12 +26,12 @@ if (is_null($row["MAX(user_id)"])) {
 $sql = 'SELECT user_name from user WHERE user_name=' . '"' . $_POST["name"] . '"';
 $result = $conn->query($sql);
 
-if ($result->num_rows > 0) { // user exists
+if ($result->num_rows > 0) {
+    // user already exists
     echo "Dieser Benutzer ist bereits vorhanden.";
 } else {
-    // create new  user
+    // create new user
     if (!empty($_POST["name"] && !empty($_POST["password"]))) {
-
         if ($_POST["password"] == $_POST["password_retype"]) {
             $id++;
             $sql = 'INSERT INTO user (user_id, user_name, password) VALUES (' . $id . ',"' . $_POST["name"] . '", "' . $_POST["password"] . '")';
