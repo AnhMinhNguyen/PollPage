@@ -11,7 +11,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-//------------------------------------------------------------
+
 $sql_id = "SELECT MAX(id) FROM pollpage";
 $result_id = $conn->query($sql_id);
 $row = $result_id->fetch_assoc();
@@ -27,7 +27,7 @@ VALUES (' . $id . ',"' . $_POST["frage"] . '", "' . $_POST["antwort"] . '")';
 
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    echo "Neue Frage und Antwort wurde erfolgreich eingefügt.";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
