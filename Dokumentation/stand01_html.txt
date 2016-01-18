@@ -9,7 +9,13 @@ Alle HTML-Seiten der PollPage:
 
 ====== Stand: 18.01.2016 ======
 
+Geändert:
 - Der "Footer"-bereich wurde in allen Seiten korrekt eingebunden.
 - Der Kommentar: "<!-- HIER ENTSTEHT EIN BILD ODER LOGO -->" wurde aus allen HTML-Seiten entfernt.
 - In allen HTML-Seiten wurde der Quellcode "ordentlicher" dargestellt.
 - Der Link-Tag "<link rel="icon" href="" type="image/gif" sizes="16x16">" wurde aus allen HTML-Seiten entfernt.
+
+Geplant:
+- Es wird eine Beschreibung der PollPage eingeführt, was sie ist und wozu sie da ist.
+  Dies wird entweder mit einer externen Datei "ueber.html" realisiert oder auf der "login.html"-Seite als Text unter den
+  Log-In-Elemetenten dargestellt.
