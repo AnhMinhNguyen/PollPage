@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Dokumentation
 
 === Feedback Alpers, Dez 11 ===
@@ -5,3 +6,12 @@ Dokumentation
 Ja, eine Dokumentation gehört zum Umfang der Projektarbeit.
 Leider entspricht eine Textdatei, die das Wort Dokumentation enthält aber genauso wenig einer Dokumentation,
 wie ein Zettel auf dem das Wort Schatzkarte steht einer Schatzkarte entspricht.
+=======
+PollPage
+---------
+
+Beschreibung:
+
+PollPage ist eine Abfrageseite für den Desktop-Pc und das Smartphone. 
+Man kann sich Fragen und den dazugehörigen Antworten erstellen und anschließend abfragen lassen.
+>>>>>>> e5a18cd2ce906ab313c93806c577cad04d5d42a8
