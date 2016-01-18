@@ -1,31 +1,29 @@
-<<<<<<< HEAD
-Dokumentation
-
-=== Feedback Alpers, Dez 11 ===
-
-Ja, eine Dokumentation gehört zum Umfang der Projektarbeit.
-Leider entspricht eine Textdatei, die das Wort Dokumentation enthält aber genauso wenig einer Dokumentation,
-wie ein Zettel auf dem das Wort Schatzkarte steht einer Schatzkarte entspricht.
-=======
-PollPage
----------
+-----------------------------------------
+-            P o l l P a g e            -
+-       D o k u m e n t a t i o n       -
+-----------------------------------------
 
 Beschreibung:
-
 PollPage ist eine Abfrageseite für den Desktop-Pc und das Smartphone. 
 Man kann sich Fragen und den dazugehörigen Antworten erstellen und anschließend abfragen lassen.
->>>>>>> e5a18cd2ce906ab313c93806c577cad04d5d42a8
 
-=== Feedback Alpers, Jan 18 ===
+Beinhalten Dateitypen:
+- *.html
+- *.css
+- *.php
 
-Es gibt verschiedene Arten von Dokumentationen. Designer bezeichnen einen Teil der Marketingmaterialien gerne als Dokumentation.
-Für eine Softwareentwicklung kann die Dokumentation verschiedenes bedeuten. Sie ist aber praktisch durchgehend ein Werkzeug,
-um den Fortschritt aufzuzeichnen, also zu lösende Aufgaben bzw. deren Lösungsansätze festzuhalten. Der Zwecke besteht darin,
-dass es leicht sein muss, neue Teammitglieder ins Team zu integrieren. Das geht aber nur, wenn die die Möglichkeit haben,
-sich in den aktuellen Projektstand einzuarbeiten.
 
-Speziell für den Leistungsnachweis soll die Dokumentation vor allem dazu dienen, dass ich mir einen schnellen Überblick verschaffe,
-womit Sie sich gerade beschäftigen, bzw. welche Probleme gerade anliegen. Nur so kann ich Ihnen eine Unterstützung beim Projekt geben.
-Mit einem Dokument wie diesem ist das nicht möglich.
+Bisherige HTML-Seiten (3):
+- login.html
+- account_erstellen.html
+- fragen_und_antworten_erstellen.html
 
-=== Feedback Alpers, Ende ===
+Bisherige CSS-Seiten (1):
+- style.css
+
+Bisherige PHP-Seiten (5):
+- account_erstellen.php
+- frage_zeigen.php
+- insert.php
+- login.php
+- select.php
