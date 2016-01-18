@@ -10,5 +10,6 @@ Alle HTML-Seiten der PollPage:
 ====== Stand: 18.01.2016 ======
 
 - Der "Footer"-bereich wurde in allen Seiten korrekt eingebunden.
-- Der Kommentar: "<!-- HIER ENTSTEHT EIN BILD ODER LOGO -->" wurde in allen HTML-Seiten entfernt.
+- Der Kommentar: "<!-- HIER ENTSTEHT EIN BILD ODER LOGO -->" wurde aus allen HTML-Seiten entfernt.
 - In allen HTML-Seiten wurde der Quellcode "ordentlicher" dargestellt.
+- Der Link-Tag "<link rel="icon" href="" type="image/gif" sizes="16x16">" wurde aus allen HTML-Seiten entfernt.
