@@ -1,8 +1,3 @@
-=== Feedback Alpers, dez 11 ===
-
-Eine Dokumentation soll beinhalten, welche Entscheidungen Sie wann aus welchen Gründen getroffen haben.
-Eine Kopie des Code ist dementsprechend keine Dokumentation.
-
 -----------------------------------------------------------
 - P o l l P a g e  -  H T M L - D o k u m e n t a t i o n -
 -----------------------------------------------------------
