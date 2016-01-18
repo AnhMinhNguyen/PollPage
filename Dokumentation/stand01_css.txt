@@ -1,29 +1,8 @@
-#wrapper {
-	text-align:center;
-	background-color:#;	
-}
+-----------------------------------------------------------
+- P o l l P a g e  -  C S S - D o k u m e n t a t i o n -
+-----------------------------------------------------------
 
+Alle CSS-Dateien der PollPage:
+- style.css
 
-#header {
-	padding:20px;
-}
-
-
-#textarea_frage {
-   resize:none;
-}
-
-
-#textarea_antwort {
-   resize:none;
-}
-
-
-#footer {
-	width:100%;
-	height:20px;
-	position:absolute;
-	bottom:0;
-	left:0;
-	clear:both;
-}
+====== Stand: 18.01.2016 ======
