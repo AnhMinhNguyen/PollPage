@@ -7,12 +7,12 @@ Eine Kopie des Code ist dementsprechend keine Dokumentation.
 - P o l l P a g e  -  H T M L - D o k u m e n t a t i o n -
 -----------------------------------------------------------
 
-====== Stand: 18.01.2016 ======
-
 Alle HTML-Seiten der PollPage:
 - login.html
 - account_erstellen.html
 - fragen_und_antworten_erstellen.html
+
+====== Stand: 18.01.2016 ======
 
 Bearbeitet:
 Der "Footer"-bereich wurde in allen Seiten korrekt eingebunden.
