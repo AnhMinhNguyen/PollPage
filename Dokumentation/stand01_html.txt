@@ -24,6 +24,7 @@ Geplant:
 ====== Stand: 19.01.2016 ======
 
 Geändert:
+- Es wurde eine Beschreibung der PollPage eingeführt in "login.html" eingefügt.
 - Die Kommentare "<!-- Infotext START -->" und "<!-- Infotext ENDE -->" wurden in "login.html" eingefügt.
 - "<div class="infotext">" wurde in "login.html" eingefügt.
 
