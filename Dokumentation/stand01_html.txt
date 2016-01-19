@@ -33,4 +33,4 @@ Geändert:
 - Der Stil des Infotextes wurde verändert.
 
 Geplant:
-- Footer-Bug wird bei Smartphones behoben.
+- Footer-Bug bei Smartphones wird behoben.
