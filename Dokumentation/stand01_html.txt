@@ -19,3 +19,13 @@ Geplant:
 - Es wird eine Beschreibung der PollPage eingeführt, was sie ist und wozu sie da ist.
   Dies wird entweder mit einer externen Datei "ueber.html" realisiert oder auf der "login.html"-Seite als Text unter den
   Log-In-Elemetenten dargestellt.
+
+
+====== Stand: 19.01.2016 ======
+
+Geändert:
+- Die Kommentare "<!-- Infotext START -->" und "<!-- Infotext ENDE -->" wurden in "login.html" eingefügt.
+- "<div class="infotext">" wurde in "login.html" eingefügt.
+
+Geplant:
+- "<div class="infotext">" wird für mobile Geräte z.B. Smartphones angepasst.
