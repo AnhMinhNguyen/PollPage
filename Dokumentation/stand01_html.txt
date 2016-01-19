@@ -29,6 +29,8 @@ Geändert:
 - Die Kommentare "<!-- Infotext START -->" und "<!-- Infotext ENDE -->" wurden in "login.html" eingefügt.
 - "<div class="infotext">" wurde in "login.html" eingefügt.
 - Der Infotext wurde für mobile Geräte z.B. Smartphones besser angepasst.
+- Der Stil des "Einloggen"-Button wurde verändert.
+- Der Stil des Infotextes wurde verändert.
 
 Geplant:
 - Footer-Bug wird bei Smartphones behoben.
