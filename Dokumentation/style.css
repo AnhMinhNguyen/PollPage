@@ -32,6 +32,23 @@ a:visited {
 	
 }
 
+.infotext {
+	text-align: center;
+	background: #fff3c4;
+	width: 25%;
+	padding: 0.5%;
+	padding-top: 0%;
+	line-height: 1.8;
+	border-radius: 2px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-top: 1px solid #EEE;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
+	min-width:20%;
+}
+
 #textarea_frage {
    color: #190c00;
 }
