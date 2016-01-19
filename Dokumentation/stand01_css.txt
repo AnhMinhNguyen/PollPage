@@ -5,4 +5,7 @@
 Alle CSS-Dateien der PollPage:
 - style.css
 
-====== Stand: 18.01.2016 ======
+====== Stand: 19.01.2016 ======
+
+Geändert:
+- ".infotext" wurde eingefügt
