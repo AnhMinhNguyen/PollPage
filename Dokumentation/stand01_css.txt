@@ -11,5 +11,5 @@ Geändert:
 - ".infotext" wurde eingefügt
 - ".button" wurde eingefügt
 - ".button:hover" wurde eingefügt
-- es wurden Kommentare eingefügt
+- Kommentare wurden eingefügt
 - Der Stile von dem Textfeld "frage" und "antwort" wurde verändert.
