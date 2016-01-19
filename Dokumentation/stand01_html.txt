@@ -29,4 +29,4 @@ Geändert:
 - "<div class="infotext">" wurde in "login.html" eingefügt.
 
 Geplant:
-- "<div class="infotext">" wird für mobile Geräte z.B. Smartphones angepasst.
+- Der Infotext wird für mobile Geräte z.B. Smartphones besser angepasst.
