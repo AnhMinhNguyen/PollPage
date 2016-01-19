@@ -2,7 +2,7 @@
 - P o l l P a g e  -  H T M L - D o k u m e n t a t i o n -
 -----------------------------------------------------------
 
-Alle HTML-Seiten der PollPage:
+Alle HTML-Seiten der PollPage (3):
 - login.html
 - account_erstellen.html
 - fragen_und_antworten_erstellen.html
