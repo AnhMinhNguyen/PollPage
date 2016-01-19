@@ -9,3 +9,6 @@ Alle CSS-Dateien der PollPage (1):
 
 Geändert:
 - ".infotext" wurde eingefügt
+- ".einloggen" wurde eingefügt
+- ".einloggen:hover" wurde eingefügt
+- es wurden Kommentare eingefügt
