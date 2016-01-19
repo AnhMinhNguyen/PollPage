@@ -30,4 +30,4 @@ Geändert:
 
 Geplant:
 - Der Infotext wird für mobile Geräte z.B. Smartphones besser angepasst.
-- Footer-Bug wird bei Smartphoneansicht behoben.
+- Footer-Bug wird bei Smartphones behoben.
