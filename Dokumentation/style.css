@@ -67,6 +67,7 @@ a:visited {
 
 /*Textfeld: "Frage"*/
 #textarea_frage {
+	max-width: 80%;
 	color: #190c00;
 	border: solid #8c4e1f 1px;
 	background-color: #fffffd;
@@ -74,6 +75,7 @@ a:visited {
 
 /*Textfeld: "Antwort"*/
 #textarea_antwort {
+	max-width: 80%;
 	color: #190c00;
 	border: solid #8c4e1f 1px;
 	background-color: #fffffd;
