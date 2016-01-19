@@ -12,3 +12,4 @@ Geändert:
 - ".button" wurde eingefügt
 - ".button:hover" wurde eingefügt
 - es wurden Kommentare eingefügt
+- Der Stile von dem Textfeld "frage" und "antwort" wurde verändert.
